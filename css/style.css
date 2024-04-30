@@ -1,0 +1,65 @@
+/* Custom Props */
+:root {
+    --text-black: rgb(29, 32, 38);
+    --text-grey: rgb(105, 112, 125);
+    --text-white: rgb(255, 255, 255);
+    --text-orange: rgb(255, 126, 27);
+    --text-line: rgb(182, 188, 200);
+    --filter: rgb(246, 248, 253);
+    --border: rgb(228, 233, 242);
+    --filter-hover: rgb(255, 171, 106);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: var(--text-white);
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* SITE MAIN */
+.site-main {
+    flex-grow: 1;
+}
+
+/* visually-hidden */
+
+.visually-hidden {
+    position: absolute;
+    width: .1rem;
+    height: .1rem;
+    margin: -.1rem;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* HEADER */
+.site-header {
+}
