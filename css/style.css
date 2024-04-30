@@ -92,6 +92,7 @@ img {
 }
 
 .site-header__img {
+    background-color: rgb(136, 136, 136);
     width: 150px;
     height: 150px;
     margin-right: 40px;
